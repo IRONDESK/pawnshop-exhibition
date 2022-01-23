@@ -1,0 +1,127 @@
+@charset "utf-8";
+/*  Reset CSS  */
+* { margin:0;  padding:0;}
+ol,ul { list-style: none; }
+a { outline:0; text-decoration:none; color:rgb(138, 138, 138); }
+img { border:0;}
+body { font:12px/1.6 'Noto Sans KR'; color:rgb(138, 138, 138); }
+.fullpage {margin:0; padding:0;}
+
+/* 모바일 최적화 */
+.notice{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0);
+    z-index: 2;
+}
+.notice > div{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+@media (max-width: 1200px){
+    .notice{
+        display: none;}
+    }
+/* 애드파워 로고 */
+.adpowerlogo{
+    position:fixed;
+    top:6%;
+    left:6%;
+    z-index:1;}
+.adpowerlogo img{
+    width:160px;
+}
+/* 애드파워 로고 모바일 */
+@media (max-width: 1200px){
+    .adpowerlogo img{
+        width:180px;}} 
+/* 상단 전시회 페이지 링크 */
+.topmenu {
+    position: fixed;
+    top: 5%;
+    right: 6%;
+    z-index: 1;
+    font-size: 30px;
+}
+.topmenu > a > span{
+    color: #fff;
+    font-weight: 900;
+}
+/* 사라질전당포 로고 */
+.top{
+    position: fixed;
+    font-size: 20px;
+    font-weight: 900;
+    color: #50af5e;
+    line-height: 19px;
+    text-align: center;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:1;
+}
+.top > img{
+    width: 190px;
+}
+/* 사라질전당포 로고 모바일 */
+@media (max-width: 1200px){
+    .top {top: 10%; font-size: 28px; line-height: 30px;}
+    .top > img {
+        width:450px;}
+    } 
+/* 본문 배경 */
+.section{
+    text-align: center;
+    background-color: #171717;
+}
+.slide{
+    text-align: center;
+}
+#mainpage{
+    font-size:35px;
+}
+/* 본문 내용 */
+.contents {
+    display: inline-block;
+    width: 70%;
+}
+div[id*=slide] h1{
+    font-size: 38px;
+}
+div[id*=slide] span{
+    font-family: 'Noto Serif KR';
+    font-size: 26px;
+}
+/* 후원사 및 제작 */
+.footer{
+    position: absolute;
+    width:100%;
+    font-size:19px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    color: #a7a7a7;
+    bottom: 5%;
+}
+.footer span {
+    font-size:24px;
+    color:#868686;
+}
+.footer nav > ul{
+    text-align: center;
+}
+.footer nav > ul > li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+.footer nav > ul > li img{
+    width: 90px;
+}

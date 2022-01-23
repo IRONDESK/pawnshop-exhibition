@@ -1,0 +1,497 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,900&display=swap');
+
+/* 공중전화 */
+form { 
+    margin: 0 auto;  
+}
+#cancel3 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel3:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal3-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal3 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal3-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button3 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button3:hover { 
+    background-color: darkgray; 
+} 
+.show-modal3 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+
+
+
+/* 교통티켓 팀 */
+#cancel4 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel4:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal4-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal4 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal4-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button4 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button4:hover { 
+    background-color: darkgray; 
+} 
+.show-modal4 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+
+/* 사진앨범 팀 */
+#cancel5 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel5:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal5-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal5 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal5-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button5 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button5:hover { 
+    background-color: darkgray; 
+} 
+.show-modal5 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+
+/* 열쇠 팀 */
+
+#cancel6 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel6:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal6-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal6 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal6-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button6 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button6:hover { 
+    background-color: darkgray; 
+} 
+.show-modal6 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+
+/* 우체통 팀 */
+#cancel7 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel7:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal7-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal7 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal7-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button7 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button7:hover { 
+    background-color: darkgray; 
+} 
+.show-modal7 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+/* 종이지도 팀 */
+#cancel8 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel8:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal8-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal8 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal8-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button8 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button8:hover { 
+    background-color: darkgray; 
+} 
+.show-modal8 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+/* 카세트테이프  팀 */
+#cancel9 { 
+    width: 97px; height: 36px; 
+    text-align: center; 
+    border: none; 
+    margin-top: 20px; 
+    cursor: pointer;
+    font-size:15px;
+    font-family:Noto Sans KR;
+    font-weight: 400;
+} 
+#cancel9:hover{ 
+    color: #fff; 
+    background-color:darkgray; 
+    opacity: 0.9; 
+}
+.modal9-content h1{
+    font-family:Noto Sans KR;
+    font-weight: 900;
+    font-size:39px;
+    letter-spacing:2px;
+    color: #00ff18;
+    margin-bottom: 19px;
+    width: 260px;
+    margin-left: -3px;
+}
+.modal9 { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(1.1); 
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; 
+    z-index: 5000;
+} 
+.modal9-content { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(17, 14, 13, 0);
+    padding: 1rem 1.5rem; 
+    width: 600px;
+    /*border-radius: 0.5rem; 테두리 둥글게*/
+} 
+.close-button9 { 
+    float: right; 
+    width: 1.5rem; 
+    line-height: 1.5rem; 
+    text-align: center; 
+    cursor: pointer; 
+    border-radius: 0.25rem; 
+    font-size:25px;
+    background-color: lightgray; 
+} 
+.close-button9:hover { 
+    background-color: darkgray; 
+} 
+.show-modal9 { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1.0); 
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+} 
+@media (max-width: 1200px){
+    div[class*="-content"] {
+        width:730px;
+    }
+    div[class*="-button"] {
+        font-size:40px;
+    }
+}
