@@ -1,2 +1,85 @@
 # pawnshop-exhibition
-사라질전당포 전시회 소개 및 홍보 페이지 (2019년 제작)
+ * 이 프로젝트는 프론트엔드 개발자로서 공부를 하기 이전인 **2019년에 제작한 사이트**입니다.
+ * http://adpower.org/2019
+
+## 개요
+### 1.1 목적 및 소개
+ * '사라질 전당포' 전시회 홍보 및 소개를 위한 사이트
+
+## 요약
+### 2.1 내용 및 주요 기능
+ 
+
+## 제작 내용
+### 3.1 제작 기간 및 역할
+#### 3.1.1 제작 기간
+
+#### 3.1.2 제작 인원
+
+
+## 3.2 주요 코드
+
+
+## 4. 활용 스택
+
+- HTML/CSS
+- JavaScript
+- fullpage.js
+
+## 5. 디렉토리 트리
+```js
+📦사이트
+ ┣ 📂css
+ ┃ ┣ 📜fullpage.css
+ ┃ ┣ 📜modal.css
+ ┃ ┣ 📜style.css
+ ┃ ┗ 📜voicestyle.css
+ ┣ 📂img
+ ┃ ┣ 📂team
+ ┃ ┃ ┣ 📜1.jpg
+ ┃ ┃ ┣ 📜2.jpg
+ ┃ ┃ ┣ 📜3.jpg
+ ┃ ┃ ┣ 📜4.jpg
+ ┃ ┃ ┣ 📜5.jpg
+ ┃ ┃ ┣ 📜6.jpg
+ ┃ ┃ ┗ 📜7.jpg
+ ┃ ┣ 📜drg.png
+ ┃ ┣ 📜efkr.png
+ ┃ ┣ 📜img1.jpg
+ ┃ ┣ 📜img2.jpg
+ ┃ ┣ 📜img3.jpg
+ ┃ ┣ 📜img4.jpg
+ ┃ ┣ 📜img5.jpg
+ ┃ ┣ 📜img6.jpg
+ ┃ ┣ 📜img7.jpg
+ ┃ ┣ 📜koreapost.png
+ ┃ ┣ 📜lottechilsung.png
+ ┃ ┣ 📜map.jpg
+ ┃ ┣ 📜nongshim.png
+ ┃ ┣ 📜sandoll.png
+ ┃ ┣ 📜things.png
+ ┃ ┗ 📜top.png
+ ┣ 📂js
+ ┃ ┣ 📜custom.js
+ ┃ ┣ 📜fullpage.js
+ ┃ ┗ 📜modal.js
+ ┣ 📂voice
+ ┃ ┣ 📜album.jpg
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜key.jpg
+ ┃ ┣ 📜map.jpg
+ ┃ ┣ 📜papermap.jpg
+ ┃ ┣ 📜post.jpg
+ ┃ ┣ 📜tape.jpg
+ ┃ ┣ 📜telephone.jpg
+ ┃ ┗ 📜ticket.jpg
+ ┣ 📜1029.html
+ ┣ 📜Adpower_Logotype.png
+ ┣ 📜bg.jpg
+ ┣ 📜bg_mobile.jpg
+ ┣ 📜index.html
+ ┣ 📜jeondangpo_logotype.png
+ ┗ 📜poster1029.jpg
+```
+
+## 6. 어려웠던 점
